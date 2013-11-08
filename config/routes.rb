@@ -12,7 +12,21 @@ Updated::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+  resources :pages do 
+    collection do 
+      get 'advisors'
+      get 'client_resources'
+      get 'contact'
+      get 'programs_services'
+      get 'testimonials'
+      get 'track_record'
+    end
+  end
 
+  # match '/pages/pages/advisors' => 'pages#advisors'
+  # match '/pages/pages/client_resources' => 'pages#client_resources'
+  # match '/pages/pages/contact' => 'pages#contact' 
+  # match '/pages/pages/programs_services' => 'pages#'   
   # Sample resource route with options:
   #   resources :products do
   #     member do

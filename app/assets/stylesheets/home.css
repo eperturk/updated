@@ -1,0 +1,35 @@
+.left-div{
+	width: 600px;
+	vertical-align: left;
+	float: left;
+}
+
+.right-div{
+	float: right;
+	width: 300px;
+	padding-left: 45px;
+}
+
+#carousel-container{
+	margin-top: 25px;
+
+	width: 200px;
+	border: 1px solid grey;
+	border-radius: 4px;
+  box-shadow: 0 0 10px #000000;
+}
+
+.carousel-inner{
+	height: 310px;
+}
+
+#contact{
+	margin-top: 25px;
+}
+
+#home-testimonials{
+	margin-top: 30px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}

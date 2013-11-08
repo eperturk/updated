@@ -1,0 +1,29 @@
+
+@import "bootstrap_config";
+@import "home";
+@import "programs_services";
+
+
+body {
+	background-image: url('mooning.png');
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: top;
+	width: 960px;
+	background-color: white;
+	height: auto;
+	box-shadow: 0 0 10px #000000;
+}
+
+#logo{
+	width: 100%;	
+}
+
+#navigation{
+	padding-top: 10px;
+	width: 960px;
+	margin-left: -15px;
+}
