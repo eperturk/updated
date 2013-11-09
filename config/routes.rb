@@ -20,6 +20,9 @@ Updated::Application.routes.draw do
       get 'programs_services'
       get 'testimonials'
       get 'track_record'
+      get 'approach'
+      get 'background'
+      get 'visits'
     end
   end
 

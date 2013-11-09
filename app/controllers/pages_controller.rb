@@ -18,7 +18,13 @@ class PagesController < ApplicationController
 	def track_record
 	end
 
-	def advisors
+	def approach
+	end
+
+	def background
+	end
+
+	def visits
 	end
 	
 end
