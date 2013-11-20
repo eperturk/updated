@@ -2,6 +2,8 @@
 @import "bootstrap_config";
 @import "home";
 @import "programs_services";
+@import "visits";
+@import "contact";
 
 
 body {
@@ -12,7 +14,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	vertical-align: top;
-	width: 960px;
+	width: 1100px;
 	background-color: white;
 	height: auto;
 	box-shadow: 0 0 10px #000000;
@@ -24,7 +26,7 @@ body {
 
 #navigation{
 	padding-top: 10px;
-	width: 960px;
+	width: 1100px;
 	margin-left: -15px;
 }
 

@@ -1,5 +1,5 @@
 .left-div{
-	width: 600px;
+	width: 700px;
 	vertical-align: left;
 	float: left;
 }
@@ -34,3 +34,19 @@
 	margin-right: auto;
 	padding-bottom: 50px;
 }
+
+#list-link{
+	margin-top: 15px;
+}
+
+#home-panel{
+	height: 300px;
+	position: relative;
+}
+
+#panel-butt{
+	position: absolute;
+	bottom: 25px;
+	left: 40px;
+}
+

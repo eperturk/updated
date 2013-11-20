@@ -12,38 +12,38 @@
 		<table id="panel-table">
 			<tr>
 				<td width="33%">
-					<div class="panel panel-danger">
+					<div class="panel panel-danger" id="home-panel">
 						<div class= "panel-heading" style="text-align: center">
 							Direction
 						</div>
-						<div class="panel-body">
+						<div class="panel-body" style="text-align: center">
 							Personal In-Depth College Counseling<br />
 							<br />Comprehensive College Planning<br />
-							<p style="text-align: center"><br /><%= link_to "Learn More", track_record_pages_path, :class => "btn btn-primary" %></p>
+							<div id="panel-butt"><br /><%= link_to "Learn More", track_record_pages_path, :class => "btn btn-primary" %></div>
 						</div>
 					</div>
 				</td>
 				<td width="33%">
-					<div class="panel panel-danger">
+					<div class="panel panel-danger" id="home-panel">
 						<div class= "panel-heading" style="text-align: center">
 							Guidance
 						</div>
-						<div class="panel-body">
+						<div class="panel-body" style="text-align: center">
 							Strategic Positioning and Preparation<br />
 							<br />Structured and Simplified Process<br />
-							<p style="text-align: center"><br /><%= link_to "Learn More", programs_services_pages_path, :class => "btn btn-primary" %></p>
+							<div id="panel-butt"><br /><%= link_to "Learn More", programs_services_pages_path, :class => "btn btn-primary" %></div>
 						</div>
 					</div>
 				</td>
 				<td width="34%">
-					<div class="panel panel-danger">
+					<div class="panel panel-danger" id="home-panel">
 						<div class= "panel-heading" style="text-align: center">
 							Support
 						</div>
-						<div class="panel-body">
+						<div class="panel-body" style="text-align: center">
 							Enthusiastic and Positive Advisors<br />
 							<br />Over 25+ Years of Higher Education Experience<br />
-							<p style="text-align: center"><br /><%= link_to "Learn More", background_pages_path, :class => "btn btn-primary" %></p>
+							<div id="panel-butt"><br /><%= link_to "Learn More", background_pages_path, :class => "btn btn-primary" %></div>
 						</div>
 					</div>
 				</td>
@@ -62,46 +62,46 @@
 		</div>
 	</div>
 	<div class="right-div">
-		<h4>See Where We've Been</h4>
+		<h4>Places We Go</h4>
 		<div id="carousel-container">
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   		<!-- Wrapper for slides -->
 		  <div class="carousel-inner">
-		    <div class="item active">
+		    <div class="item active" style="text-align: center">
 		      <%= image_tag("ali.png") %>
-		      Ali, Quinnipiac University
+		      Ali <br /> Quinnipiac University
 		    </div>
-		    <div class="item">
+		    <div class="item" style="text-align: center">
 		      <%= image_tag("bubba.png") %>
-		      Bubba, Harvard University
+		      Bubba <br /> Harvard University
 		    </div>
-		    <div class="item">
+		    <div class="item" style="text-align: center">
 		      <%= image_tag("emmanuel.png") %>
-		      Emmanual, University of Massachussetts, Lowell
+		      Emmanual <br /> U Mass, Lowell
 		    </div>
-		    <div class="item">
+		    <div class="item" style="text-align: center">
 		      <%= image_tag("julie.png") %>
-		      Julie, Arizona State University
+		      Julie <br /> Arizona State University
 		    </div>
-		    <div class="item">
+		    <div class="item" style="text-align: center">
 		      <%= image_tag("kathryn.png") %>
-		      Kathryn, University of Pennsylvannia
+		      Kathryn <br /> U Penn
 		    </div>
-		    <div class="item">
+		    <div class="item" style="text-align: center">
 		      <%= image_tag("katie.png") %>
-		      Katie, University of Southern California
+		      Katie <br /> USC
 		    </div>
-		    <div class="item">
+		    <div class="item" style="text-align: center">
 		      <%= image_tag("michelle.png") %>
-		      Michelle, American University
+		      Michelle <br /> American University
 		    </div>
-		    <div class="item">
+		    <div class="item" style="text-align: center">
 		      <%= image_tag("nicole.png") %>
-		      Nicole, Rider University
+		      Nicole <br /> Rider University
 		    </div>
-		    <div class="item">
+		    <div class="item" style="text-align: center">
 		      <%= image_tag("peter.png") %>
-		      Peter, Wake Forest University
+		      Peter <br /> Wake Forest University
 		    </div>
 		  </div>
 
@@ -113,6 +113,9 @@
 		    <span class="glyphicon glyphicon-chevron-right"></span>
   		</a>
 			</div>
+		</div>
+		<div id="list-link">
+			<%= link_to "Click for Complete List", track_record_pages_path, :class => "btn btn-primary" %>
 		</div>
 		<div id="contact">
 			<h4>Contact Us</h4>
@@ -128,6 +131,12 @@
 				<span class="glyphicon glyphicon-phone-alt"></span>  978.697.8767<br/>
 				<span class="glyphicon glyphicon-envelope"></span> renee@collegequestadvising.com
 			</p>
+			<table>
+				<tr>
+					<td><%= image_tag("neacac.png") %></td>
+					<td><%= image_tag("wacac.png") %></td>
+				</tr>
+			</table>
 		</div>
 	</div>
 </div>

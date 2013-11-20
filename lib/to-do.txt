@@ -1,0 +1,13 @@
+fonts
+frame around carousel
+carousel text center, name on top, school on bottom
+below carousel grey text box link to: track record (click)
+make top link carousel to track record
+wacac and neacac under names
+link to article (need article first)
+
+programs & services chances
+drop down, programs + services to just 
+client zone = LOCK
+search bar top right
+remove that other thing up there

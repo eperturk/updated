@@ -1,0 +1,94 @@
+<h2 style="text-align: center">Contact Us</h2>
+<div class="form">
+	<table width="100%" id="form-table">
+		<tr>
+			<td style="text-align: right" width="40%">Your Name: </td>
+			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :your_name %></td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="40%">Name of Student Inquiring For: </td>
+			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :student_name %></td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="40%">Relationship to Student: </td>
+			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :relationship_to_student %></td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="40%">Your Email: </td>
+			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :your_email %></td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="40%">Preferred Phone Number: </td>
+			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :phone_number %></td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="40%">Name of Student's High School: </td>
+			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :student_highschool %></td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="40%">Location of Student's High School: </td>
+			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :student_highschool_location %></td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="40%">Student's High School Graduation Year: </td>
+			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :student_graduation_year %></td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="40%">How did you hear about CQA?: </td>
+			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :heard_from %></td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="40%">Your Name: </td>
+			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :your_name %></td>
+		</tr>
+	</table><br />
+	<p style="text-align: center"><i>Please send me more information on products and services for a student who is:</i></p>
+	<table id="additional-form" width="100%">
+		<tr>
+			<td style="text-align: right" width="25%"><%= check_box_tag "additional_info[]", :senior %></td>
+			<td width="75%" style="padding-left: 15px;"> a current senior in high school.</td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="25%"><%= check_box_tag "additional_info[]", :junior %></td>
+			<td width="75%" style="padding-left: 15px;"> a current junior in high school.</td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="25%"><%= check_box_tag "additional_info[]", :sophomore %></td>
+			 <td width="75%" style="padding-left: 15px;">a current sophomore in high school.</td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="25%"><%= check_box_tag "additional_info[]", :freshman %></td>
+			 <td width="75%" style="padding-left: 15px;">a current freshman in high school.</td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="25%"><%= check_box_tag "additional_info[]", :pre_fresh %></td>
+			 <td width="75%" style="padding-left: 15px;">a current 8th grader.</td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="25%"><%= check_box_tag "additional_info[]", :grad_school %></td>
+			 <td width="75%" style="padding-left: 15px;">a student seeking to apply to graduate school this year or next year.</td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="25%"><%= check_box_tag "additional_info[]", :call_me %></td>
+			 <td width="75%" style="padding-left: 15px;">None of the above. Please call me at the phone number I have listed above.</td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="25%"><%= check_box_tag "additional_info[]", :email_me %></td>
+			 <td width="75%" style="padding-left: 15px;">None of the above. Please email me at the address I have listed above.</td>
+		</tr>
+		<tr>
+			<td style="text-align: right" width="25%"><%= check_box_tag "additional_info[]", :newsletter %></td>
+			 <td width="75%" style="padding-left: 15px;">Please sign me up for your weekly newsletter</td>
+		</tr>
+	</table>
+</div>
+
+
+
+
+
+
+
+
+
+
