@@ -1,0 +1,13 @@
+#col-left{
+	width: 300px;
+	margin-left: 150px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+#col-right{
+	width: 300px;
+	float: right;
+	margin-right: 150px;
+	margin-bottom: 15px;
+}
