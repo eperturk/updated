@@ -18,7 +18,7 @@ Updated::Application.routes.draw do
       get 'client_resources'
       get 'contact'
       get 'programs'
-      get 'services'
+      get 'packages'
       get 'testimonials'
       get 'track_record'
       get 'approach'
