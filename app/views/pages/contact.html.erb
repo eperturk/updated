@@ -37,10 +37,6 @@
 			<td style="text-align: right" width="40%">How did you hear about CQA?: </td>
 			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :heard_from %></td>
 		</tr>
-		<tr>
-			<td style="text-align: right" width="40%">Your Name: </td>
-			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :your_name %></td>
-		</tr>
 	</table><br />
 	<p style="text-align: center"><i>Please send me more information on products and services for a student who is:</i></p>
 	<table id="additional-form" width="100%">
@@ -75,10 +71,6 @@
 		<tr>
 			<td style="text-align: right" width="25%"><%= check_box_tag "additional_info[]", :email_me %></td>
 			 <td width="75%" style="padding-left: 15px;">None of the above. Please email me at the address I have listed above.</td>
-		</tr>
-		<tr>
-			<td style="text-align: right" width="25%"><%= check_box_tag "additional_info[]", :newsletter %></td>
-			 <td width="75%" style="padding-left: 15px;">Please sign me up for your weekly newsletter</td>
 		</tr>
 	</table>
 </div>
