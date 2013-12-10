@@ -18,37 +18,32 @@
 		<nav class="navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header" style="padding-left: 45px">
-    <%= link_to "CQA ", root_path, :class => "navbar-brand" %>
+    <%= link_to "CQA", root_path, :class => "navbar-brand" %>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">The Advisors <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Meet The Advisors<b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><%= link_to "Our Backgrounds", background_pages_path %></li>
+          <li><%= link_to "About Us", background_pages_path %></li>
+          <li><%= link_to "CQA History", cqa_history_pages_path %></li>
           <li><%= link_to "Our Approach", approach_pages_path %></li>
           <li><%= link_to "Our Campus Visits", visits_pages_path %></li>
         </ul>
       </li>
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs and Packages <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs & Services<b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><%= link_to "Programs", programs_pages_path %></li>
           <li><%= link_to "Packages", packages_pages_path %></li>
         </ul>
       </li>
       <li><%= link_to "Testimonials", testimonials_pages_path %> </li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Track Record <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><%= link_to "Colleges Clients Admitted", track_record_pages_path(:admitted => true) %></li>
-          <li><%= link_to "Colleges Clients Attend", track_record_pages_path(:attended => true) %></li>
-        </ul>
-      </li>
+      <li><%= link_to "Our Acceptances", track_record_pages_path(:admitted => true) %></li>
       <li><%= link_to "Client Resources", client_resources_pages_path %> </li>
-      <li><%= link_to "Contact Us", contact_pages_path %></li>
+      <li><%= link_to "Contact", contact_pages_path %></li>
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>

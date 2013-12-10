@@ -24,6 +24,7 @@ Updated::Application.routes.draw do
       get 'approach'
       get 'background'
       get 'visits'
+      get 'cqa_history'
     end
   end
 
