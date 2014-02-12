@@ -6,7 +6,7 @@
 			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :your_name %></td>
 		</tr>
 		<tr>
-			<td style="text-align: right" width="40%">Name of Student (): </td>
+			<td style="text-align: right" width="40%">Name of Student: </td>
 			<td width="60%" style="padding-left: 15px;"><%= text_field_tag :student_name %></td>
 		</tr>
 		<tr>
@@ -68,7 +68,8 @@
 			<td style="text-align: right" width="25%"><%= check_box_tag "additional_info[]", :grad_school %></td>
 			 <td width="75%" style="padding-left: 15px;">a student seeking to apply to graduate school this year or next year.</td>
 		</tr>
-	</table>
+	</table><br />
+	<p style="text-align: center;"><%= submit_tag "Submit", :class => "btn btn-primary" %></p>
 </div>
 
 

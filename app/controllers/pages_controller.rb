@@ -10,7 +10,10 @@ class PagesController < ApplicationController
 	def contact
 	end
 
-	def programs_services
+	def services
+	end
+
+	def programs
 	end
 
 	def testimonials
