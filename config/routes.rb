@@ -39,6 +39,7 @@ post 'logout' => 'user_sessions#destroy', :as => :logout
       get 'background'
       get 'visits'
       get 'cqa_history'
+      get 'seminars'
     end
   end
 
