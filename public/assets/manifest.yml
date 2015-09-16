@@ -71,6 +71,8 @@ peter.png: peter-abf633b538adecacb676b064aa575b2a.png
 peter/index.png: peter-abf633b538adecacb676b064aa575b2a.png
 renee_headshot.png: renee_headshot-66ea5ec7365277a207618a6fd7e98e33.png
 renee_headshot/index.png: renee_headshot-66ea5ec7365277a207618a6fd7e98e33.png
+renee_headshot_crop.png: renee_headshot_crop-3d173d1d11226df017586b7727252576.png
+renee_headshot_crop/index.png: renee_headshot_crop-3d173d1d11226df017586b7727252576.png
 ryan_cal_poly.png: ryan_cal_poly-e2ddc5473d6b4af3b77655be6d7aafa2.png
 ryan_cal_poly/index.png: ryan_cal_poly-e2ddc5473d6b4af3b77655be6d7aafa2.png
 ryan_caltech.png: ryan_caltech-547cf0e945382b529360466f91b24950.png
